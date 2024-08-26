@@ -1,0 +1,30 @@
+.home{
+    z-index: 5;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.home h2{
+    position: relative;
+    top: 73%;
+    left: 3%;
+    color: black;
+    font-family: Perpetua, Segoe UI, 'Open Sans';
+    text-align: center;
+}
+#mydiv1{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    /* filter: drop-shadow(5px 5px 5px #222); */
+    box-shadow: none;
+}
+#mydiv2{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    /* filter: drop-shadow(5px 5px 5px #222); */
+    box-shadow: none;
+}
