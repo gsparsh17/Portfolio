@@ -27,7 +27,7 @@ function Achieve({ img, text, index }) {
       </motion.div>
 
       <motion.div
-        className="w-[80vw] md:w-[20vw] h-auto md:h-64 mx-auto my-8 md:m-16 pt-8 md:pt-16 rounded-xl bg-none text-cyan-200 text-center md:text-left"
+        className="w-[80vw] md:w-[20vw] h-auto md:h-64 mx-auto my-2 md:m-16 md:pt-16 rounded-xl bg-none text-cyan-200 text-center"
         initial={{
           opacity: 0,
           x: index % 2 === 0 ? 150 : -150 // Slide right if even, left if odd
